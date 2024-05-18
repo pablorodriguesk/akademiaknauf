@@ -1,0 +1,24 @@
+{
+    "require_version": "6.6",
+    "directory": [],
+    "sql_file": "",
+    "libraries": [],
+    "files": [
+        {
+            "root_directory": "update/update_6.6.1/application/controllers/Admin.php",
+            "update_directory": "application/controllers/Admin.php"
+        },
+        {
+            "root_directory": "update/update_6.6.1/application/controllers/User.php",
+            "update_directory": "application/controllers/User.php"
+        },
+        {
+            "root_directory": "update/update_6.6.1/application/models/Crud_model.php",
+            "update_directory": "application/models/Crud_model.php"
+        },
+        {
+            "root_directory": "update/update_6.6.1/application/views/backend/modal.php",
+            "update_directory": "application/views/backend/modal.php"
+        }
+    ]
+}

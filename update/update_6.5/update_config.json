@@ -1,0 +1,225 @@
+{
+  "require_version" : "6.4",
+  "directory": [
+    {
+        "name" : "application/views/payment-global/bkash"
+    },
+    {
+        "name" : "application/views/payment-global/cashfree"
+    },
+    {
+        "name" : "application/views/payment-global/doku"
+    },
+    {
+        "name" : "application/views/payment-global/maxicash"
+    },
+    {
+        "name" : "application/views/payment-global/pagseguro"
+    },
+    {
+        "name" : "application/views/payment-global/payu"
+    },
+    {
+        "name" : "application/views/payment-global/skrill"
+    },
+    {
+        "name" : "application/views/payment-global/sslcommerz"
+    },
+    {
+        "name" : "application/views/payment-global/xendit"
+    }
+  ],
+  "sql_file": "",
+  "libraries": [
+    {
+        "root_directory": "update/update_6.5/application/libraries/cachefree.zip",
+        "update_directory": "application/libraries/cachefree.zip"
+    },
+    {
+        "root_directory": "update/update_6.5/application/libraries/doku_php.zip",
+        "update_directory": "application/libraries/doku_php.zip"
+    },
+    {
+        "root_directory": "update/update_6.5/application/libraries/openpayu_php.zip",
+        "update_directory": "application/libraries/openpayu_php.zip"
+    },
+    {
+        "root_directory": "update/update_6.5/application/libraries/xendit.zip",
+        "update_directory": "application/libraries/xendit.zip"
+    }
+  ],
+  "files": [
+    {
+        "root_directory": "update/update_6.5/application/controllers/Admin.php",
+        "update_directory": "application/controllers/Admin.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/controllers/Files.php",
+        "update_directory": "application/controllers/Files.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/controllers/Home.php",
+        "update_directory": "application/controllers/Home.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/controllers/Payment.php",
+        "update_directory": "application/controllers/Payment.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/helpers/common_helper.php",
+        "update_directory": "application/helpers/common_helper.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/libraries/razorpay-php/libs/Requests-1.7.0/library/Requests/Cookie/Jar.php",
+        "update_directory": "application/libraries/razorpay-php/libs/Requests-1.7.0/library/Requests/Cookie/Jar.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/libraries/razorpay-php/libs/Requests-1.7.0/library/Requests/Transport/cURL.php",
+        "update_directory": "application/libraries/razorpay-php/libs/Requests-1.7.0/library/Requests/Transport/cURL.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/libraries/razorpay-php/libs/Requests-1.7.0/library/Requests/Utility/CaseInsensitiveDictionary.php",
+        "update_directory": "application/libraries/razorpay-php/libs/Requests-1.7.0/library/Requests/Utility/CaseInsensitiveDictionary.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/libraries/razorpay-php/src/Resource.php",
+        "update_directory": "application/libraries/razorpay-php/src/Resource.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/models/Crud_model.php",
+        "update_directory": "application/models/Crud_model.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/models/Payment_model.php",
+        "update_directory": "application/models/Payment_model.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/backend/admin/frontend_settings.php",
+        "update_directory": "application/views/backend/admin/frontend_settings.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/backend/admin/navigation.php",
+        "update_directory": "application/views/backend/admin/navigation.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/backend/common_scripts.php",
+        "update_directory": "application/views/backend/common_scripts.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/home_1.php",
+        "update_directory": "application/views/frontend/default-new/home_1.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/home_2.php",
+        "update_directory": "application/views/frontend/default-new/home_2.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/home_3.php",
+        "update_directory": "application/views/frontend/default-new/home_3.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/home_4.php",
+        "update_directory": "application/views/frontend/default-new/home_4.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/home_5.php",
+        "update_directory": "application/views/frontend/default-new/home_5.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/home_6.php",
+        "update_directory": "application/views/frontend/default-new/home_6.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/includes_bottom.php",
+        "update_directory": "application/views/frontend/default-new/includes_bottom.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/frontend/default-new/includes_top.php",
+        "update_directory": "application/views/frontend/default-new/includes_top.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/lessons/plyr_config.php",
+        "update_directory": "application/views/lessons/plyr_config.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/bkash/payment_form.php",
+        "update_directory": "application/views/payment-global/bkash/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/cashfree/payment_form.php",
+        "update_directory": "application/views/payment-global/cashfree/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/doku/payment_form.php",
+        "update_directory": "application/views/payment-global/doku/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/maxicash/payment_form.php",
+        "update_directory": "application/views/payment-global/maxicash/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/pagseguro/payment_form.php",
+        "update_directory": "application/views/payment-global/pagseguro/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/payu/payment_form.php",
+        "update_directory": "application/views/payment-global/payu/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/skrill/payment_form.php",
+        "update_directory": "application/views/payment-global/skrill/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/sslcommerz/payment_form.php",
+        "update_directory": "application/views/payment-global/sslcommerz/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/application/views/payment-global/xendit/payment_form.php",
+        "update_directory": "application/views/payment-global/xendit/payment_form.php"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/frontend/default-new/css/all.style.min.css",
+        "update_directory": "assets/frontend/default-new/css/all.style.min.css"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/frontend/default-new/css/custom.css",
+        "update_directory": "assets/frontend/default-new/css/custom.css"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/bkash.png",
+        "update_directory": "assets/payment/bkash.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/cashfree.png",
+        "update_directory": "assets/payment/cashfree.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/doku.png",
+        "update_directory": "assets/payment/doku.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/maxicash.png",
+        "update_directory": "assets/payment/maxicash.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/pagseguro.png",
+        "update_directory": "assets/payment/pagseguro.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/payu.png",
+        "update_directory": "assets/payment/payu.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/skrill.png",
+        "update_directory": "assets/payment/skrill.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/sslcommerz.png",
+        "update_directory": "assets/payment/sslcommerz.png"
+    },
+    {
+        "root_directory": "update/update_6.5/assets/payment/xendit.png",
+        "update_directory": "assets/payment/xendit.png"
+    }
+  ]
+}
